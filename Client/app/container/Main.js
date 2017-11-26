@@ -4,8 +4,14 @@ import { Actions } from 'react-native-router-flux';
 import Recommand from '../component/recommend'
 import DirectorySwipe from '../component/directorySwipe'
 import PictureBrowser from '../component/picureBrowser'
+import FileUtil from '../util/fileUtil'
+
 
 export default class Main extends Component {
+
+  componentDidMount() {
+    FileUtil.findImageFiles('/storage');
+  }
   render() {
     return (
       <View style={{ flex: 1 }}>
