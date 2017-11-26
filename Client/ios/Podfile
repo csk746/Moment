@@ -7,4 +7,6 @@ target 'moment' do
 
   # Pods for moment
 	pod 'TensorFlow-experimental'
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
 end
