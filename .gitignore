@@ -1,0 +1,6 @@
+Client/package-lock.json
+Client/node_modules
+Client/.vscode
+.gradle
+*.class
+build
