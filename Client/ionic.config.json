@@ -1,0 +1,8 @@
+{
+  "name": "moment",
+  "app_id": "0afd1d65",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
